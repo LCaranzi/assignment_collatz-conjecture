@@ -1,0 +1,4 @@
+/home/icub/Desktop/assignment_collatz-conjecture/code/server/build/CMakeFiles/edit_cache.dir
+/home/icub/Desktop/assignment_collatz-conjecture/code/server/build/CMakeFiles/rebuild_cache.dir
+/home/icub/Desktop/assignment_collatz-conjecture/code/server/build/CMakeFiles/CMakeCXXCompilerId.dir
+/home/icub/Desktop/assignment_collatz-conjecture/code/server/build/CMakeFiles/server.dir

@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/icub/Desktop/assignment_collatz-conjecture/code/client/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+
