@@ -7,18 +7,9 @@
 
 cmake_minimum_required(VERSION 2.8.9)
 
-PROJECT(PortPower)
+project(collatz-client)
 
-FIND_PACKAGE(YARP REQUIRED)
-INCLUDE_DIRECTORIES(${YARP_INCLUDE_DIRS})
-LINK_LIBRARIES(${YARP_LIBRARIES})
-
-FILE(GLOB_RECURSE examples *.cpp)
-
-INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR})
-
-FOREACH(example ${examples})
-	# get name without extension
-	GET_FILENAME_COMPONENT(example_we "${example}" NAME_WE)
-	ADD_EXECUTABLE(${example_we} ${example})
-ENDFOREACH(example ${examples})
+find_package(YARP REQUIRED)
+include_directories(${YARP_INCLUDE_DIRS} ${CMAKE_SOURCE_DIR}/..)
+add_executable(${PROJECT_NAME} client.cpp)
+target_link_libraries(${PROJECT_NAME} ${YARP_LIBRARIES})
